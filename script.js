@@ -40,7 +40,7 @@ function playRound(humanChoice, computerChoice) {
 }
 
 function game() {
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i <= 5; i++) {
         const humanChoice = getHumanChoice();
         const computerChoice = getComputerChoice();
         console.log(playRound(humanChoice, computerChoice));
@@ -55,4 +55,21 @@ function game() {
     }
 }
 
-game();     
+game();   
+
+
+
+const output = document.querySelector(".output");
+output.textContent = "";
+let i = 10;
+
+while (i>0){
+const para = document.createElement('p');
+para.textContent = `El valor de i es: ${i}`;
+output.appendChild(para);
+i--;
+} else {
+    const para = document.createElement('p');
+    para.textContent = "Launching in...";
+    output.appendChild(para);
+}   
