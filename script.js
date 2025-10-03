@@ -69,7 +69,8 @@ const para = document.createElement('p');
 para.textContent = `El valor de i es: ${i}`;
 output.appendChild(para);
 i--;
-} else {
+} 
+{
     const para = document.createElement('p');
     para.textContent = "Launching in...";
     output.appendChild(para);
