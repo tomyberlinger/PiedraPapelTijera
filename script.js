@@ -64,7 +64,8 @@ const output = document.querySelector(".output");
 output.textContent = "";
 let i = 10;
 
-while (i>0){
+while ( i > 0) {
+    
 const para = document.createElement('p');
 para.textContent = `El valor de i es: ${i}`;
 output.appendChild(para);
