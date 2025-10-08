@@ -1,4 +1,4 @@
-/**
+
 // console.log("Hola mundo");
 
 function getComputerChoice() {
@@ -57,22 +57,3 @@ function game() {
 }
 
 game();   
-
-*/
-
-const output = document.querySelector(".output");
-output.textContent = "";
-let i = 10;
-
-while ( i > 0) {
-    
-const para = document.createElement('p');
-para.textContent = `El valor de i es: ${i}`;
-output.appendChild(para);
-i--;
-} 
-{
-    const para = document.createElement('p');
-    para.textContent = "Launching in...";
-    output.appendChild(para);
-}   
