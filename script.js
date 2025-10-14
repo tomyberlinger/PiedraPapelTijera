@@ -1,5 +1,5 @@
 
-// console.log("Hola mundo");
+console.log("Hola mundo");
 
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissors'];
